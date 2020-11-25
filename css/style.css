@@ -89,6 +89,7 @@ p{
 	text-indent: 25px;
 }
 
+
 .charge{
     position: relative;
     background-size: cover;
@@ -122,3 +123,8 @@ p{
     font-size: 13px;
     background: linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.3) 70%,transparent)
 }
+
+.phone{
+    color: black;
+}
+
