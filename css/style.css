@@ -1,7 +1,50 @@
 h1{
 	font-size: 40px; 
 	line-height: 2;	
-	color: yellow!important;
+	color: yellow;
+	letter-spacing: 5px;
+}
+
+.header1_byes{
+	font-size: 32px; 
+	line-height: 2;	
+	color: navy;
+	letter-spacing: 5px;
+}
+
+.header2_byes{
+	font-size: 28px; 
+	line-height: 2;	
+	color: orange;
+	letter-spacing: 5px;
+}
+
+.header3_byes{
+	font-size: 24px; 
+	line-height: 2;	
+	color: magenta;
+	letter-spacing: 5px;
+}
+
+.header4_byes{
+	font-size: 20px; 
+	line-height: 2;	
+	color: lightblue;
+	letter-spacing: 5px;
+}
+
+
+.header5_byes{
+	font-size: 16px; 
+	line-height: 2;	
+	color: crimson;
+	letter-spacing: 5px;
+}
+
+.header6_byes{
+	font-size: 12px; 
+	line-height: 2;	
+	color: green;
 	letter-spacing: 5px;
 }
 
