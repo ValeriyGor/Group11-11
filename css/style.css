@@ -1,0 +1,47 @@
+h1{
+	font-size: 40px; 
+	line-height: 2;	
+	color: yellow!important;
+	letter-spacing: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+.footer-menu{
+	list-style: none;
+}
+
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
+
+.footer-menu_item a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: yellow;
+}
+
+.footer-menu_item .footer-menu_link-green{
+	color: green;
+}
+
+.footer-menu_link{
+	text-decoration: line-through;
+	color: green
+}
+
+#footer-menu{
+	background: #356daa
+}
+
+p{
+	font-size: 24px;
+	line-height: 1.5;
+	text-align: justify;
+	text-indent: 25px;
+}
