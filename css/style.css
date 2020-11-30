@@ -31,6 +31,35 @@
 	margin-left: 20px;
 }
 
+[class="lesson6"]{
+    color: black;
+    font-size: 12px;
+	padding: 10px;
+        
+}
+
+.lesson6 li:last-child{
+    background-color: darkred;
+}
+
+.lesson6 li:first-child{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .first-item_menu + li a{
 	color: yellow;
 }
@@ -143,7 +172,6 @@ input[type="text"]:disabled{
 }
 
 input[type="checkbox"]{
-	display: none;
 }
 
 input[type="checkbox"] + span {
@@ -164,11 +192,30 @@ input[type="checkbox"]:checked + span {
 	border-color: #08c;
 }
 
+<<<<<<< HEAD
+.phone{
+    color: black;
+    
+}
+
+.el_li li:first-child{
+    color: yellow;
+    
+}
+.el_li li:last-child{
+    color: red;
+    
+=======
 section:target{
 	background-color: #ccc;
+>>>>>>> eedb69c9659c44aaf599a8e82d2d46d31d453d1e
 }
 
 p::selection{
 	color: yellow;
 	background-color: #08c;
+}
+input[type="checkbox"]:checked + span{
+	text-decoration: line-through;
+
 }
