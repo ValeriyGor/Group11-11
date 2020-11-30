@@ -163,8 +163,23 @@ input[type="checkbox"]:checked + span {
 	border-color: #08c;
 }
 
+<<<<<<< HEAD
+.phone{
+    color: black;
+    
+}
+
+.el_li li:first-child{
+    color: yellow;
+    
+}
+.el_li li:last-child{
+    color: red;
+    
+=======
 section:target{
 	background-color: #ccc;
+>>>>>>> eedb69c9659c44aaf599a8e82d2d46d31d453d1e
 }
 
 p::selection{
