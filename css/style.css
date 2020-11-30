@@ -143,7 +143,6 @@ input[type="text"]:disabled{
 }
 
 input[type="checkbox"]{
-	display: none;
 }
 
 input[type="checkbox"] + span {
@@ -171,4 +170,8 @@ section:target{
 p::selection{
 	color: yellow;
 	background-color: #08c;
+}
+input[type="checkbox"]:checked + span{
+	text-decoration: line-through;
+
 }
