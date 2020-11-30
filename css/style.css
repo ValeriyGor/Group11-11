@@ -126,5 +126,15 @@ p{
 
 .phone{
     color: black;
+    
+}
+
+.el_li li:first-child{
+    color: yellow;
+    
+}
+.el_li li:last-child{
+    color: red;
+    
 }
 
