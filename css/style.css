@@ -31,6 +31,35 @@
 	margin-left: 20px;
 }
 
+[class="lesson6"]{
+    color: black;
+    font-size: 12px;
+	padding: 10px;
+        
+}
+
+.lesson6 li:last-child{
+    background-color: darkred;
+}
+
+.lesson6 li:first-child{
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .first-item_menu + li a{
 	color: yellow;
 }
