@@ -1,92 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson CSS</title>
-    <link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS Selectors</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Lesson CSS</h1>
-    </header>
-    <section>
-        <h3>Samsung Galaxy Note 10 Lite</h3>
-        <img src="https://www.ixbt.com/img/n1/news/2020/0/5/GalaxyNote10LitePR_mainFF_large.jpg" alt="" width="200">
-        <li><em>9000 грн</em></li>
-    </section>
-    <a href="phone.html">Купить "Samsung Galaxy Note 10 Lite"</a>
-    <a class="phone" href="phone.html">Купить "Samsung Galaxy Note 10 Lite"</a>
-    <section>
-        <p><a href="/catalog.html">Каталог товаров</a></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat, quos vero numquam minima iste nisi modi itaque explicabo totam praesentium magni optio consequatur quaerat harum a ullam odio. Debitis.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat, quos vero numquam minima iste nisi modi itaque explicabo totam praesentium magni optio consequatur quaerat harum a ullam odio. Debitis.</p>
-    </section>
-    <section>
-        <h1 class="header1_byes">Header 1</h1>
-        <h2 class="header2_byes">Header 2</h2>
-        <h3 class="header3_byes">Header 3</h3>
-        <h4 class="header4_byes">Header 4</h4>
-        <h5 class="header5_byes">Header 5</h5>
-        <h6 class="header6_byes">Header 6</h6>
-    </section>
-    <section>
-        <h2>Галерея картинок!</h2>
-        <img src="img/ggg.png" alt="">
-        <img src="img/Без названия (1).jpg" alt="">
-        <img src="img/" alt="">
-    </section>
-    <section>
-        <form action="post">
-            <div>
-                <p>ваше имя</p>
-                <input type="text" placeholder="Имя">
-            </div>
-            <div>
-                <p>вашя фамилия</p>
-                <input type="text" placeholder="Фамилия">
-            </div>
-            
-            <div>
-                
-            </div>
-             
-             <p>Ваше телефон</p>
-                <input  tabindex="5" type="tel" name="tel"  pattern="[0-9]{10}" placeholder="Введите телефон">
-            <div>
-                <p>Ваш email</p>
-                <input tabindex="3" type="email" name="email" placeholder="Введите email">
-            </div>
-            <div>
-                <input type="input type=textarea">
-            </div>
-            <button>
-                <option value="submit">Отправить</option>
-            </button>
-            <button>
-                <option value="reset">Очистить</option>
-            </button>
-
-        </form>
-    </section>
-    <footer>
-        <nav>
-            <ul class="footer-menu">
-                <li class="footer-menu_item">
-                	<a href="" class="footer-menu_link-green">Head</a>
-                </li>
-                <li class="footer-menu_item">
-                	<a href="">Catalog</a>
-                </li>
-                <li class="footer-menu_item">
-                	<a href="">About Us</a>
-                </li>
-                <li class="footer-menu_item">
-                	<a href="pages/Contacts.html">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-    </footer>   
-    
+	<header>
+		<nav>
+			<ul class="menu">
+				<li class="first-item_menu">
+					<a href="#form">Head</a>
+				</li>
+				<li>
+					<a href="">Contacts</a>
+				</li>
+				<li><a href="">Catalog</a>
+				</li>
+				<li>
+					<a href="">About US</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<h3>Выберите ваш пол</h3>
+		<label>
+			<input type="checkbox"> 
+			<span>Мужчина</span>
+		</label>
+		<label>
+			<input type="checkbox"> 
+			<span>Женщина</span>
+		</label>
+		<label>
+			<input type="checkbox"> 
+			Женщина
+		</label>
+	</section>
+	
+	<section>
+		<p>Первый</p>
+		<p class="paragraph">Второй</p>
+		<p>Третий</p>
+		<p class="fourth paragraph">Червертый</p>
+		<p class="paragraph-five">Пятый</p>
+	</section>
+	
+	<section class="links">
+		<ul>
+			<li><a href="test.pdf">Книга HTML + CSS</a></li>
+			<li><a href="test.doc">Резюме</a></li>
+			<li><a href="test.xls">Доходы</a></li>
+			<li><a href="https://google.com">google</a></li>
+		</ul>
+		
+	</section>
+	
+	<section class="form" id="form">
+		<form action="#">
+			<label>
+				<input type="text">
+			</label>
+			<label>
+				<input type="text" disabled>
+			</label>
+			<label>
+				<input type="checkbox">
+				<span></span>
+				<span>Я соглашаюсь с лиц.соглашением</span>
+			</label>
+		</form>
+	</section>
 </body>
 </html>
