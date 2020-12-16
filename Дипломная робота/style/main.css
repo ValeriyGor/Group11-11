@@ -460,6 +460,10 @@ input{
 input:hover{
 	border: 2px solid red;
 }
+input:focus{
+	border: 2px solid red;
+	outline: none;
+}
 input[type="text"]{
 	padding: 12px 180px 12px 12px;
 }
