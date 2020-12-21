@@ -17,12 +17,10 @@
 header{
 	background: #08c;
 	position: relative;
-/*
-	background-image: url(header-bg.jpg);
+	background-image: url(https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
-*/
 	
 /*
 	background: #000 url(header-bg.jpg) center no-repeat;
@@ -31,9 +29,12 @@ header{
 }
 
 .bg-over{
-	background: #000;
+	background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
 	position: absolute;
-	left: 50%;
+	left: 60%;
 	right: 0;
 	top: 0;
 	bottom: -25px;
