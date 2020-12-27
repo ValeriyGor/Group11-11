@@ -15,12 +15,12 @@
 }
 
 header{
-/*
-	background-image: url(header-bg.jpg);
+	background: #08c;
+	position: relative;
+	background-image: url(https://p.bigstockphoto.com/GeFvQkBbSLaMdpKXF1Zv_bigstock-Aerial-View-Of-Blue-Lakes-And--227291596.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
-*/
 	
 /*
 	background: #000 url(header-bg.jpg) center no-repeat;
@@ -28,14 +28,25 @@ header{
 */
 }
 
-header .container:nth-child(2){
-	min-height: 100vh;
+.bg-over{
+	background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	position: absolute;
+	left: 60%;
+	right: 0;
+	top: 0;
+	bottom: -25px;
+	z-index: 1;
 }
 
-.top-menu{
-	background: #000 url(header-bg.jpg) center no-repeat;
-	background-size: cover;
+header .container:nth-child(2){
+	min-height: 80vh;
+	z-index: 2;
+	position: relative;
 }
+
 
 .top-menu ul{
 	display: -webkit-flex;
@@ -48,6 +59,8 @@ header .container:nth-child(2){
 	justify-content: space-between;
 	color: #fff;
 	list-style: none;
+	position: relative;
+	z-index: 3;
 }
 
 .news .container{
