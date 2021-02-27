@@ -89,7 +89,7 @@ header {
   margin-top: 60px;
   position: relative; }
   .slider__item {
-    height: 800px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat; }
     .slider__item img {
@@ -129,20 +129,6 @@ header {
     font-size: 36px; }
   .section__text-description {
     margin-top: 80px; }
-  .section__button {
-    margin-top: 30px; }
-    .section__button a {
-      text-decoration: none;
-      background-color: orange;
-      color: #000;
-      font-size: 21px;
-      font-weight: 500;
-      padding: 10px 36px;
-      transition: 0.8s;
-      border-radius: 5px; }
-    .section__button a:hover {
-      background-color: #000;
-      color: orange; }
   .section__image img {
     max-width: 100%; }
   .section__body {
@@ -189,22 +175,23 @@ header {
     width: 100%;
     height: 100%;
     padding: 40px 30px;
-    background-color: #000;
-    transform: translateY(-100%);
+    background-color: #212121;
+    transform: translateX(180%);
     transition: transform ease-in 0.5s;
     z-index: 5;
-    text-align: center; }
+    display: flex;
+    flex-direction: column; }
     .header__list--active {
-      transform: translateY(0); }
+      transform: translateX(0); }
+  .header__item {
+    margin: 0px 30px 25px 0px; }
   .header__item:hover {
     border: none; }
   .header__link {
-    display: block;
-    padding-bottom: 10px;
     font-size: 34px;
     line-height: 39px; }
   .header__link:hover {
-    color: red; }
+    color: #524f4f; }
   .header__hamburger {
     display: block; }
   .header .hamburger {
@@ -219,6 +206,8 @@ header {
     background-color: transparent;
     cursor: pointer;
     z-index: 6; }
+  .header .hamburger--active {
+    position: fixed; }
   .header .hamburger::before,
   .header .hamburger::after {
     content: "";

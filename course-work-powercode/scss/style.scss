@@ -8,7 +8,6 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-
 body{
 	background-color: #0B0B0B;
 	color: #fff;
@@ -110,7 +109,7 @@ header{
 	margin-top: 60px;
 	position: relative;
 	&__item{
-		height: 800px;
+		height: 700px;
 		background-position: center;
 		background-repeat: no-repeat; 
 		img{
@@ -148,8 +147,6 @@ header{
 		display: flex;
 		align-items: center;
 	}
-	&__title{
-	}
 	&__text{
 		&-title{
 			color: #B70021;
@@ -157,23 +154,6 @@ header{
 		}
 		&-description{
 			margin-top: 80px; 
-		}
-	}
-	&__button{
-		margin-top: 30px;
-		a{
-			text-decoration: none;
-			background-color: orange;
-			color: #000;
-			font-size: 21px;
-			font-weight: 500;
-			padding: 10px 36px;
-			transition: 0.8s;
-			border-radius: 5px; 
-		}
-		a:hover{
-			background-color: #000;
-			color: orange; 
 		}
 	}
 	&__image{
@@ -237,27 +217,28 @@ header{
 			width: 100%;
 			height: 100%;
 			padding: 40px 30px;
-			background-color: #000;
-			transform: translateY(-100%);
+			background-color: #212121;
+			transform: translateX(180%);
 			transition: transform ease-in 0.5s;
 			z-index: 5;
-			text-align: center;
+			display: flex;
+			flex-direction: column;
 			&--active{
-				transform: translateY(0);
+				transform: translateX(0);
 			}
 		}
-		&__item{}
+		&__item{
+			margin: 0px 30px 25px 0px;
+		}
 		&__item:hover{
 			border: none;
 		}
-		&__link{
-			display: block;
-			padding-bottom: 10px;
+		&__link{;
 			font-size: 34px;
 			line-height: 39px;
 		}
 		&__link:hover{
-			color: red;
+			color: #524f4f;
 		}
 		&__hamburger{
 			display: block;
@@ -274,6 +255,9 @@ header{
 			background-color: transparent;
 			cursor: pointer;
 			z-index: 6;
+		}
+		.hamburger--active{
+			position: fixed;
 		}
 		.hamburger::before,
 		.hamburger::after{
